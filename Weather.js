@@ -25,7 +25,7 @@ function Forecast()
         .then(
             result => {
                 if (result.cod === "404")
-                    alert("Такого города нет. Ты проиграл!")
+                    alert("Ничего не найдено. Хорошая попытка, попробуйте снова :)")
                 else
                     WeatherNow(result);
             },
