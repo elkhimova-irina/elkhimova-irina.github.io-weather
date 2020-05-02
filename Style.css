@@ -1,0 +1,122 @@
+body{
+    min-width: 700px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    height: 100%
+    font-family: sans-serif;
+    background-color: #ffffff;
+    	background-image: url("https://s.appleinsider.ru/2019/07/dw4.jpg");
+   
+}
+
+
+
+.Header{
+display: flex;
+    justify-content: space-between;
+      
+    width: 100px;
+  font-size:x-large;
+	font-family: Verdana, sans-serif;
+	font-variant: small-caps;
+    margin-left: 100px;
+    margin-top: 50px;
+     height: 100px;
+
+}
+
+.Name{
+	font-size:x-large;
+	
+	font-family: Verdana, sans-serif;
+	font-variant: small-caps;
+    margin-left: 350px;
+    margin-top: -10px;
+    font-size: 45px;
+   font-weight: 30;
+    
+}
+
+#City{
+	 height: 50px;
+	 font-variant: small-caps;
+        font-size: 17px;
+        width: 500px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: -20px;
+    font-family: Verdana, sans-serif;
+}
+
+.InfoFeelings{
+	font-size:x-large;
+	font-family: Verdana, sans-serif;
+	font-variant: small-caps;
+    margin-left: 450px;
+	margin-top: -50px;
+}
+
+/*.ButtonSearch{
+	margin-left: 430px;
+	margin-top: -40px;
+	height: 30px;
+	width: 50px;
+	font-variant: small-caps;
+
+	    background: linear-gradient(to top, #ffc800 22.31%, #e3ffff 52.32%, #08e2f1 80%);
+	       border-radius: 20%;
+}*/
+
+* {box-sizing: border-box;}
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 15px;
+  border: 3px solid #F9F0DA;
+}
+button {
+ margin-left: 430px;
+	margin-top: -100000px;
+	height: 30px;
+	width: 50px;
+	font-variant: small-caps;
+
+	    background: linear-gradient(to top, #ffc800 22.31%, #e3ffff 52.32%, #08e2f1 80%);
+	       border-radius: 20%;
+}
+
+
+input:focus {
+  border-color: #311c24;
+}.WeatherTown{
+	margin-left: 450px;
+	margin-top: -40px;
+}
+
+.InfoTemperature{
+	margin-left: 90px;
+}
+@media screen and (min-device-width: 1000px)
+{
+    .Header {
+        width: 90%;
+        margin-left: -10px;
+        margin-top: 40px;
+    }
+    
+    .MainBody {
+        width: 95%;
+    }
+
+    .InfoTemperature {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

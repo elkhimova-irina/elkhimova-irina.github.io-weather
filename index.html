@@ -1,1 +1,68 @@
-Hello World
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Weather forecast from Elkhimova </title>
+	<link rel="stylesheet" href="Style.css" > 
+	 
+	
+	 <style>
+ {
+    margin: 0;
+    padding: 0;
+   
+   } 
+    .shadowtext {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1); 
+    color: white; 
+    font-size:40px;
+	font-family: Verdana, sans-serif;
+	font-variant: small-caps;
+   }
+
+  </style>
+  </head>
+  
+  <body>
+  <div class="Name">
+	   <p class="shadowtext">Погода</p>
+	  </div>
+  <div class= "Header">
+	  
+	  <form class = "SearchWeather" onsubmit="Forecast(); return false;">
+		  <input id ="City" type="text" placeholder="Название города: " type="search">
+		  <button type="submit">Найти</button>
+	  </form>
+  </div>
+  <div class="MainBody">
+	  <div id="Weather">
+		  <div class="WeatherTown">
+                        <div class="Town"></div>
+                    </div>
+  
+   <div class="InfoTemperature"
+  <span class="InfoTemperature" id="temperature" ></span>
+                       
+                        <span class="InfoTemperature" id="condition"></span>
+                   </div>
+                     
+
+                   <div class="InfoFeelings">
+	                <p>Давление:</p>
+                    <a class="numeric" id=pressure  ></a>
+                    <p>Влажность:</p>
+                    <a class="numeric" id=humidity></a>
+                    <p>Ветер:</p>
+                    <a class="numeric" id=wind ></a>
+	                    
+                   </div>
+             
+  </div>
+  
+
+
+
+  <script src="Weather.js"></script>
+  </body>
+</html>
