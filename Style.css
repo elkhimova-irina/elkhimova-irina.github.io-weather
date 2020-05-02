@@ -7,7 +7,8 @@ body{
     font-family: sans-serif;
     background-color: #ffffff;
     	background-image: url("https://s.appleinsider.ru/2019/07/dw4.jpg");
-   
+      background-repeat: no-repeat;
+
 }
 
 
@@ -15,7 +16,7 @@ body{
 .Header{
 display: flex;
     justify-content: space-between;
-      
+
     width: 100px;
   font-size:x-large;
 	font-family: Verdana, sans-serif;
@@ -28,14 +29,14 @@ display: flex;
 
 .Name{
 	font-size:x-large;
-	
+
 	font-family: Verdana, sans-serif;
 	font-variant: small-caps;
     margin-left: 350px;
     margin-top: -10px;
     font-size: 45px;
    font-weight: 30;
-    
+
 }
 
 #City{
@@ -82,12 +83,10 @@ input {
   border: 3px solid #F9F0DA;
 }
 button {
- margin-left: 430px;
-	margin-top: -100000px;
 	height: 30px;
 	width: 50px;
 	font-variant: small-caps;
-
+  cursor:pointer;
 	    background: linear-gradient(to top, #ffc800 22.31%, #e3ffff 52.32%, #08e2f1 80%);
 	       border-radius: 20%;
 }
@@ -110,7 +109,7 @@ input:focus {
         margin-left: -10px;
         margin-top: 40px;
     }
-    
+
     .MainBody {
         width: 95%;
     }

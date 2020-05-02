@@ -4,65 +4,64 @@
 <head>
 	<meta charset="utf-8">
 	<title>Weather forecast from Elkhimova </title>
-	<link rel="stylesheet" href="Style.css" > 
-	 
-	
-	 <style>
- {
-    margin: 0;
-    padding: 0;
-   
-   } 
-    .shadowtext {
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1); 
-    color: white; 
-    font-size:40px;
-	font-family: Verdana, sans-serif;
-	font-variant: small-caps;
-   }
+	<link rel="stylesheet" href="Style.css" >
 
+	 <style>
+    .shadowtext {
+		    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+		    color: white;
+		    font-size:40px;
+				font-family: Verdana, sans-serif;
+				font-variant: small-caps;
+	   }
+	p{
+		display: inline;
+	}
+	.mydiv{
+		margin-top: 5px;
+	}
+	.w{
+		width: 750px;
+		margin: 0 auto 10px;
+	}
   </style>
   </head>
-  
+
   <body>
   <div class="Name">
 	   <p class="shadowtext">Погода</p>
-	  </div>
+  </div>
   <div class= "Header">
-	  
-	  <form class = "SearchWeather" onsubmit="Forecast(); return false;">
-		  <input id ="City" type="text" placeholder="Название города: " type="search">
-		  <button type="submit">Найти</button>
-	  </form>
+	  <div class = "w" onsubmit="Forecast();">
+		  <input id="City" type="text" placeholder="Название города: " type="search">
+		  <button onclick="Forecast();">Найти</button>
+	  </div>
   </div>
   <div class="MainBody">
 	  <div id="Weather">
 		  <div class="WeatherTown">
-                        <div class="Town"></div>
-                    </div>
-  
-   <div class="InfoTemperature"
-  <span class="InfoTemperature" id="temperature" ></span>
-                       
-                        <span class="InfoTemperature" id="condition"></span>
-                   </div>
-                     
+          <div class="Town"></div>
+      </div>
 
-                   <div class="InfoFeelings">
-	                <p>Давление:</p>
-                    <a class="numeric" id=pressure  ></a>
-                    <p>Влажность:</p>
-                    <a class="numeric" id=humidity></a>
-                    <p>Ветер:</p>
-                    <a class="numeric" id=wind ></a>
-	                    
-                   </div>
-             
-  </div>
-  
+ 			<!--<div class="InfoTemperature"
+				<span class="InfoTemperature" id="temperature"></span>
+		    <span class="InfoTemperature" id="temperature"></span>
+			</div>-->
 
-
-
+		 <div class="InfoFeelings">
+				<div class="mydiv"><p>Температура:</p>
+			  <p class="numeric" id="temperature"></p></div>
+				<div class="mydiv"><p>Состояние:</p>
+ 			  <p class="numeric" id="condition"></p></div>
+				<div class="mydiv"><p>Давление:</p>
+			  <p class="numeric" id="pressure"></p></div>
+				<div class="mydiv"><p>Влажность:</p>
+			  <p class="numeric" id="humidity"></p></div>
+				<div class="mydiv"><p>Ветер:</p>
+			  <p class="numeric" id="wind" ></p></div>
+			</div>
+		</div>
+	</div>
   <script src="Weather.js"></script>
   </body>
 </html>
