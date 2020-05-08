@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Temporary Pass </title>
+	<link rel="stylesheet" href="Style.css" >
+	
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
+<script src="App.js"></script>
+<script src="Script.js"></script>
+
+</head>
+
+<body>
+	
+	<div class="Title"> Оформить временный пропуск </div>
+
+	
+ <div class= "Form">
+	  <div class = "w" onsubmit="PullData();">
+		  <input class="typeofpass" id="type" required="required" pattern="[A-Za-zА-Яа-я]"  placeholder="Тип цифрового пропуска: " type="text">
+		  <label for="input"><span>*</span> 
+		  <input class="surname_m" id="surname" required="required" pattern="[A-Za-zА-Яа-я]" type="text"  placeholder="Фамилия: " >
+		  <label for="input"><span>*</span> 
+		  <input class="name_m" id="name" required="required" pattern="[A-Za-zА-Яа-я]"  type="text" placeholder="Имя: ">
+		  <label for="input"><span>*</span> 
+		  <input class="patronymic_m"id="patronymic" pattern="[A-Za-zА-Яа-я]"  type="text" placeholder="Отчество: ">
+		  <input class="mobile" id="telephone" required="required" pattern="[0-9]{11}"  type="text" placeholder="Мобильный телефон: " >
+		  <label for="input"><span>*</span> 
+		  <input class="document" id="passport" required="required" type="file" placeholder="Документ, удостоверяющий личность: " >
+		  <label for="input"><span>*</span> 
+		  <button  onclick="PullData();">Получить</button>
+	  </div>
+  </div>	
+	
+	<div class="Warn"> * Внимание! Сайт несет развлекательный характер! </div>
+</body>	
+</html>
