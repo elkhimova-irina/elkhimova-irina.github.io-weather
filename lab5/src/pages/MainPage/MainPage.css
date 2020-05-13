@@ -1,0 +1,20 @@
+.MainPage {
+ 
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+height: 700px;
+background-color: bisque;
+
+ }
+
+ .glink{
+font-size: x-large;
+font-variant: small-caps;
+font-family: Verdana, sans-serif;
+color: darksalmon;
+margin-left: -100px;
+margin-top: 400px;
+ }
+
+ 

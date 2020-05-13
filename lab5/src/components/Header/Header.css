@@ -1,0 +1,60 @@
+
+.Header {
+    flex-direction: column;
+    justify-content: start;
+    height: 140px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: palevioletred;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 0 0 20px #ff000030;
+    background-color: rgb(255, 254, 181);
+    display: flex;
+   
+}
+
+
+.Fall{
+    margin-left: 20px;
+    margin-top: 17px;
+}
+
+.heading {
+margin-left: 15px;
+display: flex;
+align-items: center;
+}
+
+.Title {
+    font-size: xx-large;
+	font-family: Verdana, sans-serif;
+	font-variant: small-caps;
+    margin-left: 100px;
+    margin-top: -250px;
+}
+
+.Auth{
+    font-size: x-large;
+	font-family: Verdana, sans-serif;
+    font-variant: small-caps;
+    margin-left: 1000px;
+    margin-top: -200px;
+}
+
+
+.SignIn{
+    font-size: x-large;
+	font-family: Verdana, sans-serif;
+    font-variant: small-caps;
+    margin-top: 0px;
+    margin-left: 600px;
+}
+
+.SignUp{
+    font-size: x-large;
+	font-family: Verdana, sans-serif;
+    font-variant: small-caps;
+    margin-left: 0px;
+    margin-left: -10px;
+}
