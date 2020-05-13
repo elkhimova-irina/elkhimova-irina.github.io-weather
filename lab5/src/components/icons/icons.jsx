@@ -34,9 +34,9 @@ class icons extends React.Component {
         const rub = this.props.rub
         return (
             <tr>
-                <td className="Table-column"><img src={this.getIcon()} alt="icon" /></td>
-                <td className="Table-column">{Name}</td>
-                <td className="Table-column">1 {Id} = {(1 / rub).toFixed(2)} RUB</td>
+                <td className="Str"><img src={this.getIcon()} alt="icon" /></td>
+                <td className="Str">{Name}</td>
+                <td className="Str">1 {Id} = {(1 / rub).toFixed(2)} RUB</td>
                
             </tr>
         );
